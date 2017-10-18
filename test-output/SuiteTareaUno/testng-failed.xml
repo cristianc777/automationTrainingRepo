@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [SuiteTareaUno]">
+  <parameter name="fecha" value="manisha"/>
+  <test name="testUno(failed)">
+    <parameter name="fecha" value="manisha"/>
+    <classes>
+      <class name="proyectoUno.tareaUnoTraining">
+        <methods>
+          <include name="afterClass"/>
+          <include name="tercerTest"/>
+          <include name="afterTest"/>
+          <include name="beforeSuite"/>
+          <include name="afterSuite"/>
+          <include name="cuartoTest"/>
+          <include name="beforeTest"/>
+          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- proyectoUno.tareaUnoTraining -->
+    </classes>
+  </test> <!-- testUno(failed) -->
+</suite> <!-- Failed suite [SuiteTareaUno] -->

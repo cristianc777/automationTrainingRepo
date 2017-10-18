@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="9" passed="9">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="70" started-at="2017-10-12T18:45:51Z" finished-at="2017-10-12T18:45:51Z">
+    <groups>
+      <group name="Regression">
+        <method signature="tareaUnoTraining.primerTest(java.lang.String, int, int)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="primerTest" class="proyectoUno.tareaUnoTraining"/>
+        <method signature="tareaUnoTraining.segundoTest(java.lang.String, java.lang.String)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="segundoTest" class="proyectoUno.tareaUnoTraining"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="tareaUnoTraining.cuartoTest(java.lang.String)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="cuartoTest" class="proyectoUno.tareaUnoTraining"/>
+        <method signature="tareaUnoTraining.primerTest(java.lang.String, int, int)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="primerTest" class="proyectoUno.tareaUnoTraining"/>
+        <method signature="tareaUnoTraining.segundoTest(java.lang.String, java.lang.String)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="segundoTest" class="proyectoUno.tareaUnoTraining"/>
+        <method signature="tareaUnoTraining.tercerTest(java.lang.String)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="tercerTest" class="proyectoUno.tareaUnoTraining"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test name="Default test" duration-ms="70" started-at="2017-10-12T18:45:51Z" finished-at="2017-10-12T18:45:51Z">
+      <class name="proyectoUno.tareaUnoTraining">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeSuite" is-config="true" duration-ms="8" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeTest" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeClass" is-config="true" duration-ms="1" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="primerTest(java.lang.String, int, int)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="primerTest" duration-ms="5" started-at="2017-10-12T13:45:51Z" data-provider="dpTestUno" finished-at="2017-10-12T13:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[producto1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- primerTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="primerTest(java.lang.String, int, int)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="primerTest" duration-ms="1" started-at="2017-10-12T13:45:51Z" data-provider="dpTestUno" finished-at="2017-10-12T13:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[producto2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- primerTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="primerTest(java.lang.String, int, int)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="primerTest" duration-ms="2" started-at="2017-10-12T13:45:51Z" data-provider="dpTestUno" finished-at="2017-10-12T13:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[producto3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- primerTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterMethod" is-config="true" duration-ms="1" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="segundoTest(java.lang.String, java.lang.String)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="segundoTest" duration-ms="1" started-at="2017-10-12T13:45:51Z" data-provider="dpTestDos" finished-at="2017-10-12T13:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[pfshv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[domgajewfd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segundoTest -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="segundoTest(java.lang.String, java.lang.String)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="segundoTest" duration-ms="2" started-at="2017-10-12T13:45:51Z" data-provider="dpTestDos" finished-at="2017-10-12T13:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dvqwdltl]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segundoTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="segundoTest(java.lang.String, java.lang.String)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="segundoTest" duration-ms="2" started-at="2017-10-12T13:45:51Z" data-provider="dpTestDos" finished-at="2017-10-12T13:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[qgwul]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[edrj]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segundoTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="segundoTest(java.lang.String, java.lang.String)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="segundoTest" duration-ms="2" started-at="2017-10-12T13:45:51Z" data-provider="dpTestDos" finished-at="2017-10-12T13:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ou]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[gecmxph]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- segundoTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="tercerTest(java.lang.String)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="tercerTest" duration-ms="17" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sat, January 7 2017]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tercerTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterMethod" is-config="true" duration-ms="2" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="cuartoTest(java.lang.String)[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="cuartoTest" duration-ms="3" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AMBIENTE1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cuartoTest -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterMethod" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterClass" is-config="true" duration-ms="1" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterTest" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:proyectoUno.tareaUnoTraining@6276ae34]" name="afterSuite" is-config="true" duration-ms="0" started-at="2017-10-12T13:45:51Z" finished-at="2017-10-12T13:45:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- proyectoUno.tareaUnoTraining -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

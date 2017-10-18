@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteTareaUno">
+   <test name="testUno">
+      <parameter name="fecha" value="Sat, January 7 2017"/>    
+      <parameter name="parametro" value="AMBIENTE1"/>         
+      <classes>
+         <class name="proyectoUno.tareaUnoTraining" />
+      </classes>   
+   </test>
+</suite>
